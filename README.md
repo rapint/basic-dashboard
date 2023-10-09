@@ -2,7 +2,7 @@
 
 ## Features
 
-- Display data fetched from provided API endpoint
+- Display data fetched from provided [API endpoint](https://dashboard-api-dusky.vercel.app/)
 - Display Sales over time and User engagement in chart
 - Display Recent Transactions and Top Products in table with pagination
 - Display locations in animated mapbox
@@ -26,6 +26,10 @@
 ```bash
 npm install
 ```
+
+### Set env vairables
+
+Create .env file in the root directory and set auth token for the provided backend API and API key for Mapbox. Refer .env.example file for structure of .env file. 
 
 ### Run the development server
 
