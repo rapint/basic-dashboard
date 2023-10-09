@@ -41,7 +41,7 @@ export default function ChartBox({ data }: { data: ChartProps }) {
   return (
     <Card className="w-full p-1 sm:p-4">
       <CardHeader>
-        <div>Real-Time Table</div>
+        <div>Real-Time Chart</div>
       </CardHeader>
       <CardBody className="overflow-visible p-0 sm:p-4">
         <Tabs fullWidth size="md" aria-label="Tabs form">

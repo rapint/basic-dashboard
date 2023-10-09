@@ -1,6 +1,12 @@
-# Next.js & NextUI Template
+# Take-Home Test: Real-Time Dashboard Development
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+## Features
+
+- Display data fetched from provided API endpoint
+- Display Sales over time and User engagement in chart
+- Display Recent Transactions and Top Products in table with pagination
+- Display locations in animated mapbox
+- Simple Contact Us form
 
 ## Technologies Used
 
@@ -9,19 +15,11 @@ This is a template for creating applications using Next.js 13 (app directory) an
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+- [React Apexcharts](https://apexcharts.com/docs/react-charts/)
+- [React Map Gl](https://visgl.github.io/react-map-gl/)
 
-## How to Use
-
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+## Running the App
 
 ### Install dependencies
 
@@ -35,6 +33,4 @@ npm install
 npm run dev
 ```
 
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+Once you run `yarn dev`, the app will be running at `localhost:3000`.

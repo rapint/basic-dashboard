@@ -44,7 +44,7 @@ export default function TableBox({ data }: { data: TableProps }) {
   return (
     <Card className="w-full p-2 sm:p-4">
       <CardHeader>
-        <div>Real-Time Chart</div>
+        <div>Real-Time Table</div>
       </CardHeader>
       <CardBody className="p-0 sm:p-4">
         <Tabs fullWidth size="md" aria-label="Tabs form">
