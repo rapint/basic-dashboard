@@ -1,7 +1,7 @@
-import dynamic from "next/dist/shared/lib/dynamic";
+import dynamic from "next/dynamic";
 import { ApexOptions } from "apexcharts";
 
-import Chart from "react-apexcharts";
+const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export type ChartState = {
   chartData: ApexAxisChartSeries | ApexNonAxisChartSeries;
@@ -17,13 +17,15 @@ interface LineChartProps extends ChartProps {}
 export default function LineChart({ chartOptions, chartData }: LineChartProps) {
   return (
     <div className="text-white dark:text-black border rounded-md p-1">
-      <Chart
-        options={chartOptions}
-        series={chartData}
-        type="area"
-        width="100%"
-        height={300}
-      />
+      {typeof window !== "undefined" && (
+        <Chart
+          options={chartOptions}
+          series={chartData}
+          type="area"
+          width="100%"
+          height={300}
+        />
+      )}
     </div>
   );
 }

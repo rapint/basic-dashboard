@@ -27,7 +27,7 @@ export default function TableContainer({
     const start: number = (page - 1) * rowsPerPage;
     const end: number = start + rowsPerPage;
     return records.slice(start, end);
-  }, [page, records]);
+  }, [page, records, rowsPerPage]);
   return (
     <Table
       removeWrapper

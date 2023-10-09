@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card, CardHeader, CardBody, Tabs, Tab } from "@nextui-org/react";
 
 import LineChart from "./LineChart";
