@@ -29,7 +29,7 @@ npm install
 
 ### Set env vairables
 
-Create .env file in the root directory and set auth token for the provided backend API and API key for Mapbox. Refer .env.example file for structure of .env file. 
+Create .env.local file in the root directory and set auth token for the provided backend API and API key for Mapbox. Refer .env.example file for structure of .env file. 
 
 ### Run the development server
 
@@ -37,4 +37,4 @@ Create .env file in the root directory and set auth token for the provided backe
 npm run dev
 ```
 
-Once you run `yarn dev`, the app will be running at `localhost:3000`.
+Once you run `npm run dev`, the app will be running at `localhost:3000`.
