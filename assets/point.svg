@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31px" height="76px" viewBox="0 0 31 76" version="1.1">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Pointer2@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.3%" y="-22.5%" width="116.7%" height="145.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0.75" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pointer2">
+            <ellipse id="Oval-Copy-2" fill-opacity="0.77" fill="#92A0A3" filter="url(#filter-1)" cx="15.5" cy="70" rx="13.5" ry="5"/>
+            <circle id="Oval-Copy-8" fill="#344A57" cx="15.5" cy="15.5" r="15.5"/>
+            <circle id="Oval-Copy-9" fill="#344A57" cx="15.5" cy="68.5" r="3.5"/>
+            <rect id="Rectangle-Copy-4" fill="#344A57" x="14" y="30" width="3" height="36"/>
+        </g>
+    </g>
+<deepl-alert xmlns=""/><deepl-alert xmlns=""/><deepl-alert xmlns=""/></svg>
